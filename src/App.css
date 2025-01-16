@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul li {
+  @apply ps-6 font-bold;
+}
+
+a {
+  color: #F8F9F9;
+}
+
+a:hover {
+  color: #B8860B;
+}
+
+.bg-header {
+  background-color: #00356e;
+  @apply text-white
+}
+
+.mobile-nav {
+  @apply fixed top-12 h-1/5 w-full left-0 bg-gray-500 ;
+}
+
+.mobile-nav li{
+  @apply w-full text-center border-b-2 h-full;
+}
+
+.bg-hero {
+  background: linear-gradient(135deg, #001B38, #003366);
+}
+
+.bg-tech{
+  background: linear-gradient(135deg, #003366, #2F4F4F);
+  
+}
+
+.bg-project {
+  background: linear-gradient(135deg, #001F3F, #00274D);
+}
+
+.bg-service {
+  background: linear-gradient(95deg, #3C4F6B, #024452);
+
+
+}
+
+.bg-contact {
+  background: linear-gradient(135deg, #000000, #001B38);
+}
