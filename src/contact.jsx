@@ -18,55 +18,55 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='flex flex-col text-center px-3 py-20  bg-contact' id='contact'>
-        <h1 className='text-white text-3xl font-bold font-display'>Contact Form</h1><br /><br />
-    <form onSubmit={handleSubmit} className="w-96 mx-auto p-6 bg-gray-900 text-white rounded-lg">
-      <div className="mb-4">
-        <label className="block text-gray-300 text-sm font-bold mb-2 font-display" htmlFor="email">
-          Email ID
-        </label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          className="w-full p-2 text-black rounded-md"
-          required
-        />
-      </div>
-      <div className="mb-4">
-        <label className="block text-gray-300 text-sm font-bold font-display mb-2" htmlFor="purpose">
-          Purpose
-        </label>
-        <input
-          type="text"
-          id="purpose"
-          name="purpose"
-          value={formData.purpose}
-          onChange={handleChange}
-          className="w-full p-2 text-black rounded-md"
-          required
-        />
-      </div>
-      <div className="mb-4">
-        <label className="block text-gray-300 text-sm font-bold mb-2 font-display" htmlFor="message">
-          Message
-        </label>
-        <textarea
-          id="message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          className="w-full p-2 text-black rounded-md"
-          rows="4"
-          required
-        ></textarea>
-      </div>
-      <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded font-display">
-        Submit
-      </button>
-    </form>
+    <div className='flex flex-col text-center px-3 py-20 bg-contact' id='contact'>
+      <h1 className='text-white text-3xl font-bold font-display'>Contact Form</h1><br /><br />
+      <form onSubmit={handleSubmit} className="w-full max-w-lg mx-auto p-6 bg-gray-900 text-white rounded-lg">
+        <div className="mb-4">
+          <label className="block text-gray-300 text-sm font-bold mb-2 font-display" htmlFor="email">
+            Email ID
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            className="w-full p-2 text-black rounded-md"
+            required
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-300 text-sm font-bold font-display mb-2" htmlFor="purpose">
+            Purpose
+          </label>
+          <input
+            type="text"
+            id="purpose"
+            name="purpose"
+            value={formData.purpose}
+            onChange={handleChange}
+            className="w-full p-2 text-black rounded-md"
+            required
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-300 text-sm font-bold mb-2 font-display" htmlFor="message">
+            Message
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            className="w-full p-2 text-black rounded-md"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded font-display">
+          Submit
+        </button>
+      </form>
     </div>
   );
 };
