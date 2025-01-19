@@ -5,6 +5,7 @@ import Tech from './tech';
 import Project from './project';
 import Service from './service';
 import Contact from './contact';
+import Footer from './footer';
 import './App.css';
 
 function App(){
@@ -16,6 +17,7 @@ function App(){
     <Project/>
     <Service/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

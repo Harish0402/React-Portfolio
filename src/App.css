@@ -49,3 +49,7 @@ a:hover {
 .bg-contact {
   background: linear-gradient(135deg, #000000, #001B38);
 }
+
+.bg-service {
+  background: linear-gradient(135deg, #3C4F6B, #4682B4);
+}

@@ -8,7 +8,7 @@ import react from './assets/react-Photoroom (1).png';
 
 export default function Tech() {
     return(
-        <section className="flex flex-col text-center px-5 py-20 bg-tech">
+        <section className="flex flex-col text-center px-5 py-20 bg-tech" id="tech">
             <h1 className="text-white text-3xl font-display font-bold ">Technologies Learned</h1><br />
 
             <div className="flex justify-evenly flex-wrap">

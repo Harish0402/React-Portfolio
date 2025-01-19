@@ -13,12 +13,12 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:your_email@gmail.com?subject=${encodeURIComponent(formData.purpose)}&body=Email: ${encodeURIComponent(formData.email)}%0D%0A%0D%0AMessage: ${encodeURIComponent(formData.message)}`;
+    const mailtoLink = `mailto:darkamin2004@gmail.com?subject=${encodeURIComponent(formData.purpose)}&body=Email: ${encodeURIComponent(formData.email)}%0D%0A%0D%0AMessage: ${encodeURIComponent(formData.message)}`;
     window.location.href = mailtoLink;
   };
 
   return (
-    <div className='flex flex-col text-center px-3 py-20  bg-contact'>
+    <div className='flex flex-col text-center px-3 py-20  bg-contact' id='contact'>
         <h1 className='text-white text-3xl font-bold font-display'>Contact Form</h1><br /><br />
     <form onSubmit={handleSubmit} className="w-96 mx-auto p-6 bg-gray-900 text-white rounded-lg">
       <div className="mb-4">
