@@ -3,23 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Harish0402.github.io/React-Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://Harish0402.github.io/React-Portfolio",
-    "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
-}
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "gh-pages": "^6.3.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
