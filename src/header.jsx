@@ -5,6 +5,10 @@ import { useState } from 'react';
 export default function Header() {
     const[toggleMenu, setToggleMenu] = useState(false);
 
+    const handleLinkClick = () => {
+        setToggleMenu(false); // Close the menu when a link is clicked
+      };
+
     return(
         
         <header className='flex justify-between px-5 py-3 bg-header' >
@@ -26,11 +30,11 @@ export default function Header() {
             {toggleMenu &&  
             <nav className='block md:hidden '> 
                 <ul className='flex flex-col mobile-nav'>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#tech">Tech</a></li>
-                    <li><a href="#project">Project</a></li>
-                    <li><a href="#service">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#hero" onClick={handleLinkClick}>Home</a></li>
+                    <li><a href="#tech" onClick={handleLinkClick}>Tech</a></li>
+                    <li><a href="#project" onClick={handleLinkClick}>Project</a></li>
+                    <li><a href="#service" onClick={handleLinkClick}>Services</a></li>
+                    <li><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
                 </ul>
             </nav>
             }

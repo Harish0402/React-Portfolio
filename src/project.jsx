@@ -11,24 +11,24 @@ export default function Project() {
             <br />
 
             <div className="flex  flex-wrap justify-evenly">
-                <div class="relative group w-80 h-72 rounded-lg overflow-hidden">
-                    <img src={news} alt="Image" class="w-full h-full object-cover p-3"/>
-                    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <a href="https://harish0402.github.io/newspaper-layout/" class="text-white text-lg font-semibold" target="blank">Visit Page</a>
+                <div className="relative group w-80 h-72 rounded-lg overflow-hidden">
+                    <img src={news} alt="Image" className="w-full h-full object-cover p-3"/>
+                    <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <a href="https://harish0402.github.io/newspaper-layout/" className="text-white text-lg font-semibold" target="blank">Visit Page</a>
                     </div>
                 </div>
 
-                <div class="relative group w-80 h-72 rounded-lg overflow-hidden">
-                    <img src={ai} alt="Image" class="w-full h-full object-cover p-3"/>
-                    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <a href="https://harish0402.github.io/AI/" class="text-white text-lg font-semibold" target="blank">Visit Page</a>
+                <div className="relative group w-80 h-72 rounded-lg overflow-hidden">
+                    <img src={ai} alt="Image" className="w-full h-full object-cover p-3"/>
+                    <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <a href="https://harish0402.github.io/AI/" className="text-white text-lg font-semibold" target="blank">Visit Page</a>
                     </div>
                 </div>
 
-                <div class="relative group w-80 h-72 rounded-lg overflow-hidden">
-                    <img src={ki} alt="Image" class="w-full h-full object-cover p-3"/>
-                    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <a href="https://harish0402.github.io/Calculator/" class="text-white text-lg font-semibold" target="blank">Visit Page</a>
+                <div className="relative group w-80 h-72 rounded-lg overflow-hidden">
+                    <img src={ki} alt="Image" className="w-full h-full object-cover p-3"/>
+                    <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <a href="https://harish0402.github.io/Calculator/" className="text-white text-lg font-semibold" target="blank">Visit Page</a>
                     </div>
                 </div>
              </div>
